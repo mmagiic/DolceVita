@@ -1,0 +1,18 @@
+$color-white: #eff0f3;
+$color-red: #74030e;
+$color-green: #132601;
+
+$color-bg-section: #504533;
+
+$color-bg-footer: #201b13;
+
+$font-base: 10px;
+
+// grid
+
+$grid-base: $font-base;
+$gutter: 1.5 * $grid-base;
+
+// brakepoints for RWD
+$bp-nd: 768px;
+$bp-lg: 1240px;
