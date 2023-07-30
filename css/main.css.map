@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,oBAAoB",
-"sources": ["../scss/01-settings/_index.scss"],
+"mappings": "AAAA,oBAAoB;ACApB,oBAAoB;AACpB,iBAAiB",
+"sources": ["../scss/01-settings/_index.scss","../scss/02-tools/_index.scss"],
 "names": [],
 "file": "main.css"
 }
