@@ -48,4 +48,71 @@ table {
 *, *::before, *::after {
   box-sizing: border-box; }
 
+body {
+  font-family: 'Italianno', cursive; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  padding: 10px;
+  margin-top: 15px; }
+
+html {
+  font-size: 10px; }
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto; }
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 740px; } }
+  @media screen and (min-width: 1240px) {
+    .container {
+      max-width: 1120px; } }
+
+.row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 15px; }
+  @media screen and (min-width: 768px) {
+    .row {
+      flex-direction: row; } }
+
+.col {
+  border: 1px solid yellow;
+  width: 100%;
+  padding: 0 15px 15px 15px; }
+  @media screen and (min-width: 768px) {
+    .col--md50 {
+      flex: 0 0 50%;
+      max-width: 50%; } }
+  @media screen and (min-width: 768px) {
+    .col--md33 {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%; } }
+  @media screen and (min-width: 768px) {
+    .col--md25 {
+      flex: 0 0 25%;
+      max-width: 25%; } }
+  @media screen and (min-width: 1240px) {
+    .col--lg50 {
+      flex: 0 0 50%;
+      max-width: 50%; } }
+  @media screen and (min-width: 1240px) {
+    .col--lg33 {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%; } }
+  @media screen and (min-width: 1240px) {
+    .col--lg25 {
+      flex: 0 0 25%;
+      max-width: 25%; } }
+
 /*# sourceMappingURL=main.css.map */
