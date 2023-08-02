@@ -171,4 +171,16 @@ html {
     left: 0;
     right: 0; }
 
+.text-color-white {
+  color: #eff0f3; }
+
+.text-aligin-center {
+  text-align: center; }
+
+.text-color-right {
+  text-align: right; }
+
+.text-aligin-jusify {
+  text-align: justify; }
+
 /*# sourceMappingURL=main.css.map */
