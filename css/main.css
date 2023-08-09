@@ -155,6 +155,9 @@ html {
   width: 100%;
   text-align: center; }
 
+.blackout {
+  background-color: rgba(0, 0, 0, 0.4); }
+
 .site-header {
   background: url("../assets/img/start.jpeg") center/cover fixed;
   height: 100vh;
@@ -170,6 +173,10 @@ html {
     margin: 0 auto;
     left: 0;
     right: 0; }
+  .site-header__blackout {
+    position: absolute;
+    width: 100%;
+    height: 100%; }
 
 .text-color-white {
   color: #eff0f3; }
